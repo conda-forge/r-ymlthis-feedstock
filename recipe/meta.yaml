@@ -1,4 +1,4 @@
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ymlthis_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ymlthis/ymlthis_{{ version }}.tar.gz
-  sha256: f430a0157cf1c5dda1c1e1d36e37096de1c54adf86630fe8971cac57fec8fc5d
+  sha256: bec563f6c382a2ab18e708059da9b47ed20dcc572a9ec6b8891138e72a82f988
 
 build:
   merge_build_host: true  # [win]
