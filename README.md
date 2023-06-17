@@ -1,11 +1,11 @@
-About r-ymlthis
-===============
+About r-ymlthis-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ymlthis-feedstock/blob/main/LICENSE.txt)
 
 Home: https://ymlthis.r-lib.org, https://github.com/r-lib/ymlthis
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ymlthis-feedstock/blob/main/LICENSE.txt)
 
 Summary: Write 'YAML' front matter for R Markdown and related documents. yml_*() functions write 'YAML' and use_*() functions let you write the resulting 'YAML' to your clipboard or to .yml files related to your project.
 
