@@ -1,4 +1,4 @@
-{% set version = "0.1.7" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ymlthis_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ymlthis/ymlthis_{{ version }}.tar.gz
-  sha256: bec563f6c382a2ab18e708059da9b47ed20dcc572a9ec6b8891138e72a82f988
+  sha256: 31c082333b6f88da2c5dee8fb87d8215e9f0e0414318d43fd71e82bc33198698
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
